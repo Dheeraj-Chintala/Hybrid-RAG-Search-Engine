@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Local configuration
+.env
+
+# Data storage (local vector index, db, raw pdf uploads)
+data/
+uploads/
+*.faiss
+*.pkl
+*.db
+*.sqlite
+
+# Streamlit
+.streamlit/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
